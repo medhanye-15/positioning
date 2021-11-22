@@ -156,7 +156,10 @@ image flexible{
 }
 
 .center-img{
-    
+     magin: auto;
+     width:50%;
+}
+     
 
 
 
