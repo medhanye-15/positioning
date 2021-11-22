@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html {
-    background-color: brown;
+    background-color: gainsboro;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -13,7 +13,7 @@ html {
 
 ::selection {
     color: #000; 
-    background: brown;
+    background: gainsboro;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 }
 
 main.wrapper {
-    background-color:brown;
+    background-color:gainsboro;
     overflow: auto;
 }
 
@@ -40,8 +40,8 @@ h2,h3 {
 }
 
 a {
-    color:rgb(42, 165, 93) ;
-    text-decoration: none;
+    color:rgb(154, 154, 190) ;
+    text-decoration: lightblue;
 }
 
 a:hover {
@@ -117,9 +117,12 @@ footer {
    .fa-facebook {
     background: #3B5998;
     color: white;
-  }
+    padding: 20px 25px;
+ }
+ 
+  
    .fa-twitter {
-    background: #55ACEE;
+    background: #00ACEE; 
     color: white;
   }
    .fa-youtube {
@@ -145,6 +148,15 @@ footer {
 
  
 /* font awsome social media and flex box ends here */
+
+/*flexible image rules start here */
+/*
+image flexible{
+    width:100%;
+}
+
+.center-img{
+    
 
 
 
